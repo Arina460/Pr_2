@@ -30,7 +30,7 @@ namespace Pr_2
             try
             {
                 int rows = Convert.ToInt32(razm.Text);
-                int cols = Convert.ToInt32(razm1.Text);
+                int cols = Convert.ToInt32(razm1.Text);//kyj
                 int maxValue = Convert.ToInt32(znach.Text); // fjfj
 
                 if (rows <= 0 || cols <= 0)
